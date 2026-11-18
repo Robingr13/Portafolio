@@ -1,58 +1,175 @@
-/* Cambia estos colores para hacerlo tuyo */
+
+/* =========================================
+   1. VARIABLES GLOBALES
+========================================= */
+
 :root {
-  --fondo: #0f172a;
-  --tarjeta: #1e293b;
-  --texto: #e2e8f0;
-  --acento: #38bdf8;
+    /* Colores principales */
+    --fondo: #151B26;
+    --tarjeta: #222B38;
+    --texto: #E8E6E1;
+    --acento: #C6A878;
+
+    /* Colores secundarios */
+    --tarjeta-clara: #E8E6E1;
+    --texto-oscuro: #dde1e6;
+    --texto-secundario: #69717C;
+    --borde: #D3D2CE;
+
+    /* Sombras */
+    --sombra: rgba(0, 0, 0, 0.3);
 }
 
-* { box-sizing: border-box; margin: 0; padding: 0; }
+/* =========================================
+   2. CONFIGURACIÓN GENERAL
+========================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
-  background: var(--fondo);
-  color: var(--texto);
-  line-height: 1.6;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--fondo);
+    color: var(--texto);
+    line-height: 1.6;
 }
 
+/* =========================================
+   3. ENCABEZADO
+========================================= */
+
 .hero {
-  padding: 80px 24px 48px;
-  text-align: center;
+    padding: 80px 24px 48px;
+    text-align: center;
 }
 
 .etiqueta {
-  color: var(--acento);
-  font-size: 0.85rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+    color: var(--acento);
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 
-h1 { font-size: 2.8rem; margin: 8px 0; }
+h1 {
+    font-size: 2.8rem;
+    margin: 8px 0;
+}
 
-.lema { opacity: 0.8; }
+.lema {
+    opacity: 0.8;
+}
+
+/* =========================================
+   4. CONTENIDO PRINCIPAL
+========================================= */
 
 main {
-  max-width: 760px;
-  margin: 0 auto;
-  padding: 0 24px 48px;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 24px 48px;
 }
 
 section {
-  background: var(--tarjeta);
-  border-radius: 12px;
-  padding: 24px;
-  margin-bottom: 20px;
+    background: var(--tarjeta);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
 }
 
-h2 { color: var(--acento); margin-bottom: 8px; }
+.sobre-mi {
+    background: var(--tarjeta);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+}
 
-ul { padding-left: 20px; }
+h2 {
+    color: var(--acento);
+    margin-bottom: 8px;
+}
 
-a { color: var(--acento); }
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: var(--acento);
+}
+
+/* =========================================
+   5. TARJETA DE PERFIL
+========================================= */
+
+.tarjeta-habilidades {
+    background: var(--tarjeta);
+    width: 340px;
+    padding: 24px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px var(--sombra);
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    color: var(--texto-oscuro);
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    color: var(--texto-secundario);
+    margin-bottom: 25px;
+}
+
+/* =========================================
+   6. HABILIDADES Y PROGRESO
+========================================= */
+
+.habilidad {
+    text-align: left;
+    margin-bottom: 18px;
+}
+
+.lista-habilidades {
+    list-style: none;
+}
+
+.habilidad h3 {
+    margin-bottom: 7px;
+    color: var(--texto-oscuro);
+    font-size: 1rem;
+}
+
+.barra {
+    background: var(--borde);
+    height: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progreso {
+    display: block;
+    width: var(--progreso);
+    height: 100%;
+    background: linear-gradient(90deg, #999692,#b88232);
+    border-radius: 10px;
+}
+
+.pie {
+    margin-top: 25px;
+    color: var(--texto-secundario);
+    font-size: 13px;
+}
+
+/* =========================================
+   7. PIE DE PÁGINA
+========================================= */
 
 footer {
-  text-align: center;
-  padding: 24px;
-  opacity: 0.6;
-  font-size: 0.85rem;
+    text-align: center;
+    padding: 24px;
+    opacity: 0.6;
+    font-size: 0.85rem;
 }
