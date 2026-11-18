@@ -3,6 +3,9 @@
 <html lang="es">
 
 <head>
+
+    <!-- Configuración del documento -->
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,9 +14,12 @@
         content="Portafolio profesional de Robinson Granada. Desarrollador de software en formación, con conocimientos en Python, Excel, Power BI y análisis de datos."
     >
 
-    <title>Robinson Granada | Portafolio</title>
+    <meta name="author" content="Robinson Granada">
+
+    <title>Robinson Granada | Portafolio profesional</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -25,7 +31,7 @@
     <header class="hero">
 
         <p class="etiqueta">
-            Desarrollador(a) de software en formación · ADSO
+            Desarrollador de software en formación · ADSO
         </p>
 
         <h1>Robinson Granada</h1>
@@ -45,228 +51,332 @@
 
         <!-- SOBRE MÍ -->
 
-        <section class="sobre-mi" aria-labelledby="titulo-sobre-mi">
+        <section
+            class="sobre-mi"
+            aria-labelledby="titulo-sobre-mi"
+        >
 
-            <header>
-                <h2 id="titulo-sobre-mi">Sobre mí</h2>
-            </header>
+            <h2 id="titulo-sobre-mi">Sobre mí</h2>
 
             <p>
-                Soy una persona responsable, comprometida y con gran interés
-                en el aprendizaje y la tecnología. Actualmente estoy
-                fortaleciendo mis conocimientos en desarrollo de software,
-                especialmente en Python, Flask, APIs y bases de datos.
+                Soy una persona responsable, comprometida y con gran
+                interés en el aprendizaje y la tecnología. Actualmente
+                estoy fortaleciendo mis conocimientos en desarrollo
+                de software, especialmente en Python, Flask, APIs y
+                bases de datos.
 
-                Me caracterizo por mi capacidad de adaptación, pensamiento
-                analítico y disposición para asumir nuevos retos.
-
-                Busco oportunidades para aplicar mis conocimientos,
-                adquirir experiencia y crecer profesionalmente en el
-                sector tecnológico.
+                Me caracterizo por mi capacidad de adaptación,
+                pensamiento analítico y disposición para asumir
+                nuevos retos. Busco oportunidades para aplicar
+                mis conocimientos, adquirir experiencia y crecer
+                profesionalmente en el sector tecnológico.
             </p>
 
         </section>
 
 
-        <!-- HABILIDADES PROFESIONALES -->
+        <!-- DISTRIBUCIÓN DE CONTENIDO -->
 
-        <section class="tarjeta-habilidades" aria-labelledby="titulo-habilidades">
+        <div class="contenedor-principal">
 
-            <header class="encabezado-tarjeta">
 
-                <h2 id="titulo-habilidades">
-                    Mis habilidades
-                </h2>
+            <!-- =================================
+                 HABILIDADES PROFESIONALES
+            ================================== -->
 
-                <p class="subtitulo">
-                    Tecnología y Análisis de Datos
+            <section
+                class="tarjeta-habilidades"
+                aria-labelledby="titulo-habilidades"
+            >
+
+                <header>
+                    <h2 id="titulo-habilidades"> Mis habilidades </h2>
+                    <p class="subtitulo"> Tecnología y Análisis de Datos </p>
+                </header>
+
+                <ul class="lista-habilidades">
+
+                    <!-- Power BI -->
+
+                    <li class="habilidad">
+
+                        <h3>📊 Power BI</h3>
+
+                        <div
+                            class="barra"
+                            role="progressbar"
+                            aria-label="Power BI"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="70"
+                        >
+                            <span class="progreso progreso--70"></span>
+                        </div>
+
+                    </li>
+
+
+                    <!-- Excel -->
+
+                    <li class="habilidad">
+
+                        <h3>📗 Microsoft Excel</h3>
+
+                        <div
+                            class="barra"
+                            role="progressbar"
+                            aria-label="Microsoft Excel"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="90"
+                        >
+                            <span class="progreso progreso--90"></span>
+                        </div>
+
+                    </li>
+
+
+                    <!-- Python -->
+
+                    <li class="habilidad">
+
+                        <h3>🐍 Python</h3>
+
+                        <div
+                            class="barra"
+                            role="progressbar"
+                            aria-label="Python"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="65"
+                        >
+                            <span class="progreso progreso--65"></span>
+                        </div>
+
+                    </li>
+
+
+                    <!-- Análisis de datos -->
+
+                    <li class="habilidad">
+
+                        <h3>📈 Análisis de Datos</h3>
+
+                        <div
+                            class="barra"
+                            role="progressbar"
+                            aria-label="Análisis de Datos"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="65"
+                        >
+                            <span class="progreso progreso--65"></span>
+                        </div>
+
+                    </li>
+
+
+                    <!-- SQL -->
+
+                    <li class="habilidad">
+
+                        <h3>🗄️ SQL y Bases de Datos</h3>
+
+                        <div
+                            class="barra"
+                            role="progressbar"
+                            aria-label="SQL y Bases de Datos"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="50"
+                        >
+                            <span class="progreso progreso--50"></span>
+                        </div>
+
+                    </li>
+
+
+                    <!-- Pensamiento analítico -->
+
+                    <li class="habilidad">
+
+                        <h3>🧠 Pensamiento Analítico</h3>
+
+                        <div
+                            class="barra"
+                            role="progressbar"
+                            aria-label="Pensamiento Analítico"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="70"
+                        >
+                            <span class="progreso progreso--70"></span>
+                        </div>
+
+                    </li>
+
+
+                    <!-- Visualización de datos -->
+
+                    <li class="habilidad">
+
+                        <h3>🐱‍👤Git & GitHub</h3>
+
+                        <div
+                            class="barra"
+                            role="progressbar"
+                            aria-label="Visualización de Datos"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                            aria-valuenow="50"
+                        >
+                            <span class="progreso progreso--50"></span>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+
+                <p class="pie">
+                    Perfil de habilidades profesionales
                 </p>
 
-            </header>
+            </section>
 
 
-            <ul class="lista-habilidades">
+            <!-- =================================
+                 OBJETIVOS PROFESIONALES
+            ================================== -->
 
-                <li class="habilidad">
+            <section
+                class="proyectos"
+                aria-labelledby="titulo-proyectos"
+            >
 
-                    <h3>📊 Power BI</h3>
+                <header class="encabezado-proyectos">
 
-                    <div
-                        class="barra"
-                        role="progressbar"
-                        aria-label="Nivel de habilidad en Power BI"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        aria-valuenow="70"
-                    >
-                        <span
-                            class="progreso"
-                            style="--progreso: 70%"
-                        ></span>
-                    </div>
+                    <h2 id="titulo-proyectos">
+                        Mis objetivos profesionales
+                    </h2>
 
-                </li>
+                    <p>
+                        Mi visión de crecimiento académico y profesional.
+                    </p>
 
-
-                <li class="habilidad">
-
-                    <h3>📗 Microsoft Excel</h3>
-
-                    <div
-                        class="barra"
-                        role="progressbar"
-                        aria-label="Nivel de habilidad en Microsoft Excel"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        aria-valuenow="90"
-                    >
-                        <span
-                            class="progreso"
-                            style="--progreso: 90%"
-                        ></span>
-                    </div>
-
-                </li>
+                </header>
 
 
-                <li class="habilidad">
-
-                    <h3>🐍 Python</h3>
-
-                    <div
-                        class="barra"
-                        role="progressbar"
-                        aria-label="Nivel de habilidad en Python"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        aria-valuenow="60"
-                    >
-                        <span
-                            class="progreso"
-                            style="--progreso: 60%"
-                        ></span>
-                    </div>
-
-                </li>
+                <div class="contenedor-proyectos">
 
 
-                <li class="habilidad">
+                    <!-- Objetivo 1 -->
 
-                    <h3>📈 Análisis de Datos</h3>
+                    <article class="proyecto">
 
-                    <div
-                        class="barra"
-                        role="progressbar"
-                        aria-label="Nivel de habilidad en análisis de datos"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        aria-valuenow="55"
-                    >
-                        <span
-                            class="progreso"
-                            style="--progreso: 55%"
-                        ></span>
-                    </div>
+                        <span class="categoria">
+                            Corto plazo
+                        </span>
 
-                </li>
+                        <h3>🎓 Finalizar ADSO</h3>
 
+                        <p>
+                            Completar mi formación como Tecnólogo en
+                            Análisis y Desarrollo de Software,
+                            fortaleciendo mis conocimientos en
+                            programación, desarrollo web y bases de datos.
+                        </p>
 
-                <li class="habilidad">
-
-                    <h3>🗄️ SQL y Bases de Datos</h3>
-
-                    <div
-                        class="barra"
-                        role="progressbar"
-                        aria-label="Nivel de habilidad en SQL y bases de datos"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        aria-valuenow="50"
-                    >
-                        <span
-                            class="progreso"
-                            style="--progreso: 50%"
-                        ></span>
-                    </div>
-
-                </li>
+                    </article>
 
 
-                <li class="habilidad">
+                    <!-- Objetivo 2 -->
 
-                    <h3>🧠 Pensamiento Analítico</h3>
+                    <article class="proyecto">
 
-                    <div
-                        class="barra"
-                        role="progressbar"
-                        aria-label="Nivel de habilidad en pensamiento analítico"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        aria-valuenow="60"
-                    >
-                        <span
-                            class="progreso"
-                            style="--progreso: 60%"
-                        ></span>
-                    </div>
+                        <span class="categoria">
+                            Mediano plazo
+                        </span>
 
-                </li>
+                        <h3>💼 Prácticas profesionales</h3>
 
+                        <p>
+                            Vincularme a una empresa donde pueda aplicar
+                            mis conocimientos, participar en proyectos
+                            reales y aprender de profesionales
+                            experimentados.
+                        </p>
 
-                <li class="habilidad">
-
-                    <h3>📊 Visualización de Datos</h3>
-
-                    <div
-                        class="barra"
-                        role="progressbar"
-                        aria-label="Nivel de habilidad en visualización de datos"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        aria-valuenow="60"
-                    >
-                        <span
-                            class="progreso"
-                            style="--progreso: 60%"
-                        ></span>
-                    </div>
-
-                </li>
-
-            </ul>
+                    </article>
 
 
-            <p class="pie">
-                Perfil de habilidades profesionales
+                    <!-- Objetivo 3 -->
+
+                    <article class="proyecto">
+
+                        <span class="categoria">
+                            Mediano plazo
+                        </span>
+
+                        <h3>🚀 Experiencia profesional</h3>
+
+                        <p>
+                            Consolidar mi experiencia en el sector
+                            tecnológico, asumir nuevos retos y
+                            desarrollar competencias que aporten
+                            valor a las organizaciones.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Objetivo 4 -->
+
+                    <article class="proyecto">
+
+                        <span class="categoria">
+                            Largo plazo
+                        </span>
+
+                        <h3>📊 Ciencia de Datos</h3>
+
+                        <p>
+                            Especializarme en análisis y ciencia
+                            de datos, integrando programación,
+                            estadística, visualización de información
+                            y desarrollo de software.
+                        </p>
+
+                    </article>
+
+
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <!-- =================================
+             CONTACTO
+        ================================== -->
+
+        <section
+            class="contacto"
+            aria-labelledby="titulo-contacto"
+        >
+
+            <h2 id="titulo-contacto">
+                Contacto
+            </h2>
+
+            <p>
+                Próximamente encontrarás aquí mis medios de contacto
+                y enlaces profesionales.
             </p>
 
         </section>
 
-
-        <!-- PROYECTOS -->
-
-        <section class="proyectos" aria-labelledby="titulo-proyectos">
-
-            <header>
-                <h2 id="titulo-proyectos">Mis proyectos</h2>
-            </header>
-
-            <!-- Aquí se incorporarán los proyectos -->
-
-        </section>
-
-
-        <!-- CONTACTO -->
-
-        <section class="contacto" aria-labelledby="titulo-contacto">
-
-            <header>
-                <h2 id="titulo-contacto">Contacto</h2>
-            </header>
-
-            <!-- Aquí se incorporarán los medios de contacto -->
-
-        </section>
 
     </main>
 
@@ -284,4 +394,5 @@
     </footer>
 
 </body>
+
 </html>
