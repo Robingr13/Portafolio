@@ -1,33 +1,287 @@
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tu Nombre · Portafolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Portafolio profesional de Robinson Granada. Desarrollador de software en formación, con conocimientos en Python, Excel, Power BI y análisis de datos."
+    >
+
+    <title>Robinson Granada | Portafolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="hero">
-    <p class="etiqueta">Desarrollador(a) de software en formación · ADSO</p>
-    <h1>Robinson Granada</h1>
-    <p class="lema">Un buen análisis, es un buen trabajo a futuro.</p>
-  </header>
 
-  <main>
-    <section>
-      <h2>Sobre mí</h2>
-      <p>Soy una persona responsable, comprometida y con gran interés en el aprendizaje y la tecnología. Actualmente estoy fortaleciendo mis conocimientos en desarrollo de software, especialmente en Python, Flask, APIs y bases de datos. Me caracterizo por mi capacidad de adaptación, pensamiento analítico y disposición para asumir nuevos retos. Busco oportunidades para aplicar mis conocimientos, adquirir experiencia y crecer profesionalmente en el sector tecnológico.</p>
-    </section>
+    <!-- =================================
+         ENCABEZADO PRINCIPAL
+    ================================== -->
 
-    <!-- Habilidades: aquí va el issue #2 -->
+    <header class="hero">
 
-    <!-- Proyectos: aquí va el issue #3 -->
+        <p class="etiqueta">
+            Desarrollador(a) de software en formación · ADSO
+        </p>
 
-    <!-- Contacto: aquí va el issue #4 -->
-  </main>
+        <h1>Robinson Granada</h1>
 
-  <footer>
-    <p>Hecho con HTML, CSS y Git · 2026</p>
-  </footer>
+        <p class="lema">
+            Un buen análisis, es un buen trabajo a futuro.
+        </p>
+
+    </header>
+
+
+    <!-- =================================
+         CONTENIDO PRINCIPAL
+    ================================== -->
+
+    <main>
+
+        <!-- SOBRE MÍ -->
+
+        <section class="sobre-mi" aria-labelledby="titulo-sobre-mi">
+
+            <header>
+                <h2 id="titulo-sobre-mi">Sobre mí</h2>
+            </header>
+
+            <p>
+                Soy una persona responsable, comprometida y con gran interés
+                en el aprendizaje y la tecnología. Actualmente estoy
+                fortaleciendo mis conocimientos en desarrollo de software,
+                especialmente en Python, Flask, APIs y bases de datos.
+
+                Me caracterizo por mi capacidad de adaptación, pensamiento
+                analítico y disposición para asumir nuevos retos.
+
+                Busco oportunidades para aplicar mis conocimientos,
+                adquirir experiencia y crecer profesionalmente en el
+                sector tecnológico.
+            </p>
+
+        </section>
+
+
+        <!-- HABILIDADES PROFESIONALES -->
+
+        <section class="tarjeta-habilidades" aria-labelledby="titulo-habilidades">
+
+            <header class="encabezado-tarjeta">
+
+                <h2 id="titulo-habilidades">
+                    Mis habilidades
+                </h2>
+
+                <p class="subtitulo">
+                    Tecnología y Análisis de Datos
+                </p>
+
+            </header>
+
+
+            <ul class="lista-habilidades">
+
+                <li class="habilidad">
+
+                    <h3>📊 Power BI</h3>
+
+                    <div
+                        class="barra"
+                        role="progressbar"
+                        aria-label="Nivel de habilidad en Power BI"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="70"
+                    >
+                        <span
+                            class="progreso"
+                            style="--progreso: 70%"
+                        ></span>
+                    </div>
+
+                </li>
+
+
+                <li class="habilidad">
+
+                    <h3>📗 Microsoft Excel</h3>
+
+                    <div
+                        class="barra"
+                        role="progressbar"
+                        aria-label="Nivel de habilidad en Microsoft Excel"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="90"
+                    >
+                        <span
+                            class="progreso"
+                            style="--progreso: 90%"
+                        ></span>
+                    </div>
+
+                </li>
+
+
+                <li class="habilidad">
+
+                    <h3>🐍 Python</h3>
+
+                    <div
+                        class="barra"
+                        role="progressbar"
+                        aria-label="Nivel de habilidad en Python"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="60"
+                    >
+                        <span
+                            class="progreso"
+                            style="--progreso: 60%"
+                        ></span>
+                    </div>
+
+                </li>
+
+
+                <li class="habilidad">
+
+                    <h3>📈 Análisis de Datos</h3>
+
+                    <div
+                        class="barra"
+                        role="progressbar"
+                        aria-label="Nivel de habilidad en análisis de datos"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="55"
+                    >
+                        <span
+                            class="progreso"
+                            style="--progreso: 55%"
+                        ></span>
+                    </div>
+
+                </li>
+
+
+                <li class="habilidad">
+
+                    <h3>🗄️ SQL y Bases de Datos</h3>
+
+                    <div
+                        class="barra"
+                        role="progressbar"
+                        aria-label="Nivel de habilidad en SQL y bases de datos"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="50"
+                    >
+                        <span
+                            class="progreso"
+                            style="--progreso: 50%"
+                        ></span>
+                    </div>
+
+                </li>
+
+
+                <li class="habilidad">
+
+                    <h3>🧠 Pensamiento Analítico</h3>
+
+                    <div
+                        class="barra"
+                        role="progressbar"
+                        aria-label="Nivel de habilidad en pensamiento analítico"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="60"
+                    >
+                        <span
+                            class="progreso"
+                            style="--progreso: 60%"
+                        ></span>
+                    </div>
+
+                </li>
+
+
+                <li class="habilidad">
+
+                    <h3>📊 Visualización de Datos</h3>
+
+                    <div
+                        class="barra"
+                        role="progressbar"
+                        aria-label="Nivel de habilidad en visualización de datos"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="60"
+                    >
+                        <span
+                            class="progreso"
+                            style="--progreso: 60%"
+                        ></span>
+                    </div>
+
+                </li>
+
+            </ul>
+
+
+            <p class="pie">
+                Perfil de habilidades profesionales
+            </p>
+
+        </section>
+
+
+        <!-- PROYECTOS -->
+
+        <section class="proyectos" aria-labelledby="titulo-proyectos">
+
+            <header>
+                <h2 id="titulo-proyectos">Mis proyectos</h2>
+            </header>
+
+            <!-- Aquí se incorporarán los proyectos -->
+
+        </section>
+
+
+        <!-- CONTACTO -->
+
+        <section class="contacto" aria-labelledby="titulo-contacto">
+
+            <header>
+                <h2 id="titulo-contacto">Contacto</h2>
+            </header>
+
+            <!-- Aquí se incorporarán los medios de contacto -->
+
+        </section>
+
+    </main>
+
+
+    <!-- =================================
+         PIE DE PÁGINA
+    ================================== -->
+
+    <footer class="footer">
+
+        <p>
+            Hecho con HTML, CSS y Git · 2026
+        </p>
+
+    </footer>
+
 </body>
 </html>
