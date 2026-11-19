@@ -273,9 +273,73 @@ main {
 
 .contacto {
     background: var(--tarjeta);
-    padding: 24px;
+    padding: 25px;
     border-radius: var(--radio-tarjeta);
     margin-top: 24px;
+}
+
+.encabezado-contacto {
+  margin-bottom: 24px;
+}
+
+.encabezado-contacto p {
+  color: var(--texto);
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+/* Contenedor */
+.encabezado-contacto {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  gap: 20px
+}
+
+/* Elementos de contacto */
+.item-contacto {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 20px;
+  background: rgba(85, 77, 77, 0.4);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-tarjeta);
+  margin-top: 10px;
+}
+
+/* iconos */
+.icono-contacto {
+  font-size: 1.8rem;
+}
+
+/* informacion */
+.informacion-contacto {
+  min-width: 0;
+}
+
+.informacion-contacto h3 {
+  color: var(--texto);
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.informacion-contacto p {
+  color: var(--texto-secundario);
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+}
+
+/* Enlaces */
+.informacion-contacto a {
+  color: var(--acento);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.informacion-contacto a:hover {
+  text-decoration: underline;
 }
 
 
