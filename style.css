@@ -219,12 +219,14 @@ main {
 
 .encabezado-proyectos {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .encabezado-proyectos p {
     color: var(--texto);
     opacity: 0.85;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .contenedor-proyectos {
